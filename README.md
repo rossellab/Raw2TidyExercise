@@ -4,7 +4,7 @@ This is an exercise in tidying up raw data, made for the Getting and Cleaning Da
 The files in this repository include:  
 * a script with the commands I used to run my analysis in R, run_analysis.R;  
 * this README.md file;  
-* and a code book with an explanation of the variables, code_book.md  
+* and a code book with an explanation of the variables, CodeBook.md  
 
 ### Here follows an explanation of the script in run_analysis.R
 1. The first step is to download the data from their original location (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) which was given to us in the course material. I have downloaded the files on Jun 10th 2015, at 12:53:57.
