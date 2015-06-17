@@ -12,22 +12,23 @@ The files in this repository include:
 2. Then the script unzips the files inside the working directory, this automatically creates the subdirectory "UCI HAR Dataset" and all the files with the data and information are stored inside this subdirectory.
 
 3. The relevant data are read into R dataframe structures:
-- subjectTest contains the subject number for the Test subset
-- xTest contains the measurements in the Test subset, for each subject and activities
-- yTest contains the activity number for each observation in the Test subset
-- subjectTrain contains the subject number for the Train subset
-- xTrain contains the measurements in the Train subset, for each subject and activities
-- yTrain contains the activity number for each observation in the Train subset
+* subjectTest contains the subject number for the Test subset
+* xTest contains the measurements in the Test subset, for each subject and activities
+* yTest contains the activity number for each observation in the Test subset
+* subjectTrain contains the subject number for the Train subset
+* xTrain contains the measurements in the Train subset, for each subject and activities
+* yTrain contains the activity number for each observation in the Train subset
 
 4. Using the dplyr library the script:
-- assembles two dataframes that for each subset link each subject and activity to the corresponding measurement (I have assumed here that row numbers are the link, as there was no any other link specified)
-- merges the two dataframes into one dataframe containing all the Test and Train measurements
-- selects a subset of the columns containing subject and activity labels and further only those measurements computed as mean values or standard deviations, as required in the assignment (here I live out the meanFreq() measurements because in my understanding this is not a common mean value but rather a frequency measurement)
+* assembles two dataframes that for each subset link each subject and activity to the corresponding measurement (I have assumed here that row numbers are the link, as there was no any other link specified)
+* merges the two dataframes into one dataframe containing all the Test and Train measurements
+* selects a subset of the columns containing subject and activity labels and further only those measurements computed as mean values or standard deviations, as required in the assignment (here I live out the meanFreq() measurements because in my understanding this is not a common mean value but rather a frequency measurement)
 
 
 5. Every variable gets labeled with a human-readable name. I have chosen here to go for long and easy to read names rather than short names that more easily fit into one window. This for two reasons:
-- the number of variables is so high that they will never fit in one window anyway
-- although a bit more annoying to type in if you have to further analyse the data, I personally find the long names  easier to scan through when you are looking for one specific variable  
+* the number of variables is so high that they will never fit in one window anyway
+* although a bit more annoying to type in if you have to further analyse the data, I personally find the long names  easier to scan through when you are looking for one specific variable        
+  
 The only abbreviation I allow for is "Std" for "Standard deviation", as this is a very well known one and widely used by data scientists.
 
 6. Activity numbers in the "activity" column are substituted with descriptive activity labels, as required in the assignment
