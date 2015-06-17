@@ -9,59 +9,39 @@ In the original documentation it is described how these measurements have been p
 The variables described in this Code Book are a transformed subset of this latter features vector. For more information as to how that features vector was created is available in the original documentation as referred to above.
 
 ### subject
-This is the label corresponding to each subject on which the measurements have been performed.
+This is the label corresponding to each subject on which the measurements have been performed.    
 
 ### activity
-This is the label describing the activity that the subject was performing during measurement.
+This is the label describing the activity that the subject was performing during measurement.    
 
-### timeBodyAccelerationMeanX
-### timeBodyAccelerationMeanY
-### timeBodyAccelerationMeanZ
-These are the average measurements of linear body acceleration over the three axes, respectively.
+### timeBodyAccelerationMeanX, timeBodyAccelerationMeanY, timeBodyAccelerationMeanZ
+These are the average measurements of linear body acceleration over the three axes, respectively.    
 
-### timeBodyAccelerationStdX
-### timeBodyAccelerationStdY                      
-### timeBodyAccelerationStdZ
-These are the average measurements of the standard deviations in the linear body acceleration over the three axes, respectively.
+### timeBodyAccelerationStdX, timeBodyAccelerationStdY, timeBodyAccelerationStdZ
+These are the average measurements of the standard deviations in the linear body acceleration over the three axes, respectively.    
 
-### timeGravityAccelerationMeanX
-### timeGravityAccelerationMeanY                 
-### timeGravityAccelerationMeanZ
+### timeGravityAccelerationMeanX, timeGravityAccelerationMeanY, timeGravityAccelerationMeanZ
 These are the average measurements of the linear gravity acceleration over the three axes, respectively.
 
-### timeGravityAccelerationStdX
-### timeGravityAccelerationStdY
-### timeGravityAccelerationStdZ
+### timeGravityAccelerationStdX, timeGravityAccelerationStdY, timeGravityAccelerationStdZ
 These are the average measurements of the standard deviations in the linear gravity acceleration over the three axes, respectively.
 
-### timeBodyAccelerationJerkMeanX
-### timeBodyAccelerationJerkMeanY
-### timeBodyAccelerationJerkMeanZ
+### timeBodyAccelerationJerkMeanX, timeBodyAccelerationJerkMeanY, timeBodyAccelerationJerkMeanZ
 These are the average measurements of the Jerk signal computed from the linear body acceleration over the three axes, respectively.
 
-### timeBodyAccelerationJerkStdX                 
-### timeBodyAccelerationJerkStdY
-### timeBodyAccelerationJerkStdZ
+### timeBodyAccelerationJerkStdX, timeBodyAccelerationJerkStdY, timeBodyAccelerationJerkStdZ
 These are the average measurements of the standard deviations in the Jerk signal computed from the linear body acceleration over the three axes, respectively.
 
-### timeBodyAngularVelocityMeanX
-### timeBodyAngularVelocityMeanY                 
-### timeBodyAngularVelocityMeanZ
+### timeBodyAngularVelocityMeanX, timeBodyAngularVelocityMeanY, timeBodyAngularVelocityMeanZ
 These are the average body angular velocity over the three axes, respectively.
 
-### timeBodyAngularVelocityStdX
-### timeBodyAngularVelocityStdY
-### timeBodyAngularVelocityStdZ
+### timeBodyAngularVelocityStdX, timeBodyAngularVelocityStdY, timeBodyAngularVelocityStdZ
 These are the average measurements of the standard deviations in the body angular velocity over the three axes, respectively.
 
-### timeBodyAngularVelocityJerkMeanX
-### timeBodyAngularVelocityJerkMeanY
-### timeBodyAngularVelocityJerkMeanZ
+### timeBodyAngularVelocityJerkMeanX, timeBodyAngularVelocityJerkMeanY, timeBodyAngularVelocityJerkMeanZ
 These are the average measurements of the Jerk signal computed from the body angular velocity over the three axes, respectively.
 
-### timeBodyAngularVelocityJerkStdX
-### timeBodyAngularVelocityJerkStdY
-### timeBodyAngularVelocityJerkStdZ
+### timeBodyAngularVelocityJerkStdX, timeBodyAngularVelocityJerkStdY, timeBodyAngularVelocityJerkStdZ
 These are the average measurements of the standard deviations in the Jerk signal computed from the body angular velocity over the three axes, respectively.
 
 ### timeBodyAccelerationMagnitudeMean
@@ -94,34 +74,22 @@ This is the average measurement of the standard deviation in the magnitude of th
 ### timeBodyAngularVelocityJerkMagnitudeStd
 This is the average measurement of the standard deviation in the magnitude of the Jerk signal computed from the body angular velocity.
 
-### frequencyBodyAccelerationMeanX
-### frequencyBodyAccelerationMeanY
-### frequencyBodyAccelerationMeanZ
+### frequencyBodyAccelerationMeanX, frequencyBodyAccelerationMeanY, frequencyBodyAccelerationMeanZ
 These are the average measurements of linear body acceleration over the three axes, respectively, computed in the frequency domain.
 
-### frequencyBodyAccelerationStdX                
-### frequencyBodyAccelerationStdY
-### frequencyBodyAccelerationStdZ
+### frequencyBodyAccelerationStdX, frequencyBodyAccelerationStdY, frequencyBodyAccelerationStdZ
 These are the average measurements of the standard deviations in the linear body acceleration over the three axes, respectively, computed in the frequency domain.
 
-### frequencyBodyAccelerationJerkMeanX
-### frequencyBodyAccelerationJerkMeanY
-### frequencyBodyAccelerationJerkMeanZ
+### frequencyBodyAccelerationJerkMeanX, frequencyBodyAccelerationJerkMeanY, frequencyBodyAccelerationJerkMeanZ
 These are the average measurements of the Jerk signal computed from the linear body acceleration over the three axes, respectively, computed in the frequency domain.
 
-### frequencyBodyAccelerationJerkStdX            
-### frequencyBodyAccelerationJerkStdY
-### frequencyBodyAccelerationJerkStdZ
+### frequencyBodyAccelerationJerkStdX, frequencyBodyAccelerationJerkStdY, frequencyBodyAccelerationJerkStdZ
 These are the average measurements of the standard deviations in the Jerk signal computed from the linear body acceleration over the three axes, respectively, computed in the frequency domain.
 
-### frequencyBodyAngularVelocityMeanX
-### frequencyBodyAngularVelocityMeanY
-### frequencyBodyAngularVelocityMeanZ
+### frequencyBodyAngularVelocityMeanX, frequencyBodyAngularVelocityMeanY, frequencyBodyAngularVelocityMeanZ
 These are the average measurements of the body angular velocity over the three axes, respectively, computed in the frequency domain.
 
-### frequencyBodyAngularVelocityStdX    
-### frequencyBodyAngularVelocityStdY
-### frequencyBodyAngularVelocityStdZ
+### frequencyBodyAngularVelocityStdX, frequencyBodyAngularVelocityStdY, frequencyBodyAngularVelocityStdZ
 These are the average measurements of the standard deviations in the body angular velocity over the three axes, respectively, computed in the frequency domain.
 
 ### frequencyBodyAccelerationMagnitudeMean
