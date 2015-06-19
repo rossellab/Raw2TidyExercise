@@ -13,6 +13,7 @@ yTest<-read.table("UCI HAR Dataset/test/Y_test.txt")
 subjectTrain<-read.table("UCI HAR Dataset/train/subject_train.txt")
 xTrain<-read.table("UCI HAR Dataset/train/X_train.txt")
 yTrain<-read.table("UCI HAR Dataset/train/Y_train.txt")
+featuresNames<-read.table("UCI HAR Dataset/features.txt")
 
 
 
