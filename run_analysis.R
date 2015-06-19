@@ -29,8 +29,8 @@ dataMerged<-rbind(dataTest,dataTrain)
 ## Extract only the columns containing measurements that refer to mean values and standard deviations
 
 index<-grepl("mean()",featuresNames$V2,fixed=TRUE) | grepl("std()",featuresNames$V2,fixed=TRUE)
-        # this line creates an index of column numbers corresponding to
-        # measurements including "mean()" or "std()" in their names
+# this line creates an index of column numbers corresponding to
+# measurements including "mean()" or "std()" in their names
 variablesSelection<-paste0("V",featuresNames$V1[index])
 dataExtracted<-select(dataMerged,subject,activity,one_of(variablesSelection))
 
